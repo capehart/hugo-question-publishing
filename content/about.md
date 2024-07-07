@@ -11,7 +11,7 @@ I think this page should be published:
 * The page is standard markdown
 * The theme has a template defined at `layouts/_default/single.html`.
 * The `layouts/_default/single.html` page includes a `{{ .Content }}` section
-* The [docs](https://gohugo.io/templates/lookup-order/#target-a-template) indicate that files in the root content directlry of a `page` _content type_.
+* The [docs](https://gohugo.io/templates/lookup-order/#target-a-template) indicate that files in the root content directory have a `page` _content type_, and imply that they should be rendered with a `single.html` template.
 * I would expect the **theme**'s `layouts/_default/single.html` to to take effect, but the page does not get published even with an explicit `layouts/page/single.html` in the **site**. 
 * The page does not publish whether it has the default `single.html` from the skeleton or a simplified one [as referenced here](https://gohugo.io/templates/single/)
 
