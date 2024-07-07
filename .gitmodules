@@ -1,0 +1,3 @@
+[submodule "themes/santa"]
+	path = themes/santa
+	url = git@github.com:capehart/hugo-santa-theme.git
